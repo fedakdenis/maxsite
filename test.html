@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<style type="text/css">
+			.col-1{
+				height: 300px;
+			}
+			.col-2{
+				/*
+				height: 100% not working, how to stretch col-2 like col-1
+				*/
+			}
+			@media(min-width: 992px) {
+			  .flex-container {
+				display: flex;
+			  }
+			}
+		 </style>
+	</head>
+	<body>
+		<div>
+			<div class="col-md-6 col-1">
+			</div>
+			<div class="col-md-6 col-2">
+			</div>
+		</div>
+	</body>
+</html>
